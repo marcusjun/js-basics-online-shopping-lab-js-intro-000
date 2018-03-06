@@ -101,6 +101,13 @@ function removeFromCart(item) {
     shopCart=cart[n]
     if (Object.keys(shopCart)===item){
       //remove item from cart array
+/*
+      var deleteKey=Object.keys(shopCart)
+      delete shopCart.deleteKey
+*/
+      cart.splice(n,1)
+      return cart
+
     }
   }
 
