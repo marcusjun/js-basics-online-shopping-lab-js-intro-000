@@ -107,7 +107,7 @@ function removeFromCart(item) {
       var deleteKey=Object.keys(shopCart)
       delete shopCart.deleteKey
 */
-    if (cart.includes(item))
+    if (cart.includes(item)){
       itemKey=cart.indexOf(item)
       cart.splice(itemKey,1)
       return cart
