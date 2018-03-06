@@ -107,7 +107,7 @@ function placeOrder(cardNumber) {
   }
   else {
     var totalCost=total()
-    console.log(`Your total coast is $ ${totalCost} which will be charged to the card ${cardNumber}.`)
+    console.log(`Your total coast is $${totalCost} which will be charged to the card ${cardNumber}.`)
     //empty cart array
     cart=[]
   }
