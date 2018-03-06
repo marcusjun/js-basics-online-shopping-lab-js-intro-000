@@ -95,7 +95,7 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
-/*
+
   var shopCart={}
   var itemKey
 
@@ -107,7 +107,9 @@ function removeFromCart(item) {
 
       var deleteKey=Object.keys(shopCart)
       delete shopCart.deleteKey
-*/
+    }
+  }
+/*
     if (cart.includes(item)){
       var itemKey=cart.indexOf(item)
       cart.splice(itemKey,1)
@@ -117,7 +119,9 @@ function removeFromCart(item) {
       console.log("That item is not in your cart.")
       //return cart
     }
-    return cart
+*/
+  console.log("That item is not in your cart.")
+  return cart
 }
 
 
