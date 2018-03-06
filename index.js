@@ -95,6 +95,7 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
+/*
   var shopCart={}
   var itemKey
 /*
@@ -108,7 +109,7 @@ function removeFromCart(item) {
       delete shopCart.deleteKey
 */
     if (cart.includes(item)){
-      itemKey=cart.indexOf(item)
+      var itemKey=cart.indexOf(item)
       cart.splice(itemKey,1)
       return cart
     }
