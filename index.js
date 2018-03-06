@@ -111,12 +111,13 @@ function removeFromCart(item) {
     if (cart.includes(item)){
       var itemKey=cart.indexOf(item)
       cart.splice(itemKey,1)
-      return cart
+      //return cart
     }
     else {
       console.log("That item is not in your cart.")
-      return cart
+      //return cart
     }
+    return cart
 }
 
 
