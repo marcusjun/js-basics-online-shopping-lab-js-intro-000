@@ -96,9 +96,12 @@ function total() {
 function removeFromCart(item) {
   // write your code here
   var shopCart={}
+  var itemKey
+  
   for (var n=0;n<cart.length;n++){
     shopCart=cart[n]
-    if (Object.keys(shopCart)===item){
+    itemKey=Object.keys(shopCart)
+    if (itemKey===item){
       //remove item from cart array
 /*
       var deleteKey=Object.keys(shopCart)
