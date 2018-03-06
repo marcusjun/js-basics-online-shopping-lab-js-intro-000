@@ -97,6 +97,13 @@ function removeFromCart(item) {
   // write your code here
   var shopCart={}
 
+  for (var n=0;n<cart.length;n++){
+    shopCart=cart[n]
+    if (Object.keys(shopCart)===item){
+      //remove item from cart array
+    }
+  }
+
 
 }
 
