@@ -98,13 +98,13 @@ function removeFromCart(item) {
 /*
   var shopCart={}
   var itemKey
-/*
+
   for (var n=0;n<cart.length;n++){
     shopCart=cart[n]
     itemKey=Object.keys(shopCart)
     if (itemKey===item){
       //remove item from cart array
-/*
+
       var deleteKey=Object.keys(shopCart)
       delete shopCart.deleteKey
 */
