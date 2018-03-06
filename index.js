@@ -108,7 +108,7 @@ function removeFromCart(item) {
       delete shopCart.deleteKey
 */
     //if (cart.indexOf(item))
-      cart.splice(n,1)
+      cart.splice(n, 1)
       return cart
 
     }
