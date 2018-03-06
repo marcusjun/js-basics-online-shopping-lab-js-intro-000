@@ -108,6 +108,6 @@ function placeOrder(cardNumber) {
   else {
     console.log("Your total coast is $"+total()+" which will be charged to the card "+cardNumber".")
     //empty cart array
-    
+    cart=[]
   }
 }
