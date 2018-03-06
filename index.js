@@ -97,7 +97,7 @@ function removeFromCart(item) {
   // write your code here
   var shopCart={}
   var itemKey
-
+/*
   for (var n=0;n<cart.length;n++){
     shopCart=cart[n]
     itemKey=Object.keys(shopCart)
@@ -107,7 +107,7 @@ function removeFromCart(item) {
       var deleteKey=Object.keys(shopCart)
       delete shopCart.deleteKey
 */
-    //if (cart.indexOf(item))
+    if (cart.includes(item))
       cart.splice(n,1)
       return cart
 
