@@ -102,7 +102,7 @@ function removeFromCart(item) {
 
   for (var n=0;n<len;n++){
     shopCart=cart[n]
-    itemKey=Object.keys(shopCart)
+    itemKey=`${Object.keys(shopCart)}`
     if (itemKey===item){
       //remove item from cart array
 
